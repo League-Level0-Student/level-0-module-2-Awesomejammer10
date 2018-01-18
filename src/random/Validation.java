@@ -11,16 +11,48 @@ public class Validation {
 	public static void main(String[] args) {
 
 		// 1. OPTIONAL: Watch the first 2 minutes of this movie: http://vimeo.com/2485018
-		
+		for(int j = 0;j<=10;j++){		
 		int randomNumber = new Random().nextInt(5);
 		
 		// 2. On paper, write all the numbers that get printed when you run this class 10 times
 		
 		System.out.println(randomNumber);
 
+		
+		
+		
 		// 3. Use each value of randomNumber to give the user a random compliment.
+		
+		
+		
+		
+		
+	
+if (randomNumber== 1) {
+	System.out.println("You look good today!!!");
 
-		// 4. Repeat all the code above 10 times
+}
+if (randomNumber== 2) {
+	System.out.println( "Nice shirt!");
+}
+if (randomNumber== 3) {
+	System.out.println( "Nice shoes!");
+}
+	
+if (randomNumber== 4) {
+	System.out.println( "You are cool!");
+}
+if (randomNumber== 5) {
+	System.out.println( "You are hacking!");
+}
+if (randomNumber== 0) {
+	System.out.println( "You are amazing!");
+}
+
+		}
+
+
+// 4. Repeat all the code above 10 times
 		
 		// 5. Find someone to test out your program. They will like it :)
 	}
