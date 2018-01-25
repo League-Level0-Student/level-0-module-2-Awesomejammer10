@@ -19,8 +19,30 @@ AnimalFarm() {
 	 * animal.
 	 */
 
-	/* 2. Make it so that the user can keep entering new animals. */
+
+		String Animal= JOptionPane.showInputDialog("What animal do you want? Dog, duck, and cow.");
+		while(true) {
+			if(Animal.equals("cow")) {
+				playMoo();
+			}
+			if(Animal.equals("dog")) {
+				playWoof();
+			}
+			if(Animal.equals("duck")) {
+				playQuack();
+			}
+			if(Animal.equals("llama")) {
+				playllama();
+			}
+			if(Animal.equals("cat")) {
+				playmeow();
+			}
+	}
 }
+
+
+	/* 2. Make it so that the user can keep entering new animals. */
+
 
 void playMoo() {
 	playNoise(mooFile);
@@ -32,6 +54,12 @@ void playQuack() {
 
 void playWoof() {
 	playNoise(woofFile);
+}
+void playllama() {
+	playNoise(llamaFile);
+}
+void playmeow() {
+	playNoise(meowFile);
 }
 
 String quackFile = "quack.wav";
