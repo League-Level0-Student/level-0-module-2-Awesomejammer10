@@ -20,7 +20,7 @@ AnimalFarm() {
 	 */
 
 
-		String Animal= JOptionPane.showInputDialog("What animal do you want? Dog, duck, and cow.");
+		String Animal= JOptionPane.showInputDialog("What animal do you want? Dog, duck, llama, cat, and cow.");
 		while(true) {
 			if(Animal.equals("cow")) {
 				playMoo();
